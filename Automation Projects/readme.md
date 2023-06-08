@@ -57,6 +57,14 @@ This script reads scheduled tweets from a Google Sheet and checks if they need t
 - Datetime (built-in)
 - Dotenv
 
+### Script 6: `file_organizer.py`
+
+This script automates the process of organizing your files by moving files into their respective extension directory.
+
+**Dependencies**
+- os Module
+- shutil Module
+
 ## Configuration
 
 Some scripts require additional configuration or setup before running. Please refer to the individual script sections above for specific instructions.
