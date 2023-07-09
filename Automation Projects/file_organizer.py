@@ -23,71 +23,84 @@ print(dir)
 
 if os.path.exists(videos_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Videos")
 
 if os.path.exists(excel_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Excels")
 
 if os.path.exists(pdf_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("PDFs")
 
 if os.path.exists(apps_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Apps")
 
 if os.path.exists(images_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Images")
 
 if os.path.exists(zip_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Zips")
 
 if os.path.exists(ppt_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("PPTs")
 
 if os.path.exists(word_folder):
     # Comment this code if you don't want "Folder exists." to print in the terminal
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Words")
 
 if os.path.exists(code_folder):
-    print("Folder exists.")
+    #print("Folder exists.")
+    pass
 else:
     os.mkdir("Codes")
     os.chdir(path+"Codes")
     if os.path.exists(python_folder):
-        print("Folder exists.")
+        #print("Folder exists.")
+        pass
     else:
         os.mkdir("Python")
     if os.path.exists(java_folder):
-        print("Folder exists.")
+        #print("Folder exists.")
+        pass
     else:
         os.mkdir("Java")
     if os.path.exists(javascript_folder):
-        print("Folder exists.")
+        #print("Folder exists.")
+        pass
     else:
         os.mkdir("JavaScript")
     if os.path.exists(sql_folder):
-        print("Folder exists.")
+        #print("Folder exists.")
+        pass
     else:
         os.mkdir("SQL")
 
