@@ -10,14 +10,9 @@ def quality_144p():
 def quality_360p():
     return yt.streams.get_by_itag(18) # TO DOWNLOAD IN 360p QUALITY
 
-def quality_2160p(output_file):
-    video = yt.streams.get_by_itag(313) # TO DOWNLOAD IN 2160p QUALITY
-    audio = yt.streams.get_by_itag(251) # TO DOWNLOAD AUDIO
-    temp_video = video.download(output_path='.', filename="video_temp.mp4")
-    temp_audio = audio.download(output_path=".", filename="audio_temp.webm")
-    merge_audio_video = ffmpeg.concat(temp_video, temp_audio, v=1, a=1).output(output_file, strict='experimental').run(overwrite_output=True)
-    return merge_audio_video(temp_video, temp_audio)
-    
+def mp3():
+    return yt.streams.get_by_itag(251) # TO DOWNLOAD IN MP3 FORMAT WITH HIGHEST QUALITY
+
 url = input("Enter link: ")
 yt = YouTube(url)
 print(yt.title)
@@ -33,4 +28,4 @@ elif choice == 2:
 elif choice == 3:
     quality_720p().download()
 elif choice == 4:
-    quality_2160p()
+    mp3().download()
